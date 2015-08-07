@@ -12,6 +12,9 @@ Open a simple HTTP server in the top level of the cloned directory
 Run the Sinatra server
 Then open your web browser of choice to localhost:4567
 
+To open in Heroku
+https://git.heroku.com/murmuring-meadow-4934.git
+
 Copyright (c) 2015 Janice V. Dunn
 
 This software is licensed under the MIT license.
