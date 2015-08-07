@@ -6,7 +6,11 @@ describe('String#word_count') do
     expect(("peck of pickled peppers").word_count("peck")).to(eq(1))
   end
 
-  it("handles different letter casing in the phrase and in the word") do
+  it("handles mixed letter casing in the phrase") do
+    expect(("Peck oF PicKled pePPers").word_count("peck")).to(eq(1))
+  end
+
+  it("handles mixed letter casing in the word") do
     expect(("Peck oF PicKled pePPers").word_count("pEck")).to(eq(1))
   end
 end
